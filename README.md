@@ -1,7 +1,7 @@
-#Agentia Hello World (Greeting Agent) Project
-#Below is a step-by-step outline for a “Hello World” project in Agentia, where you will build two agents:
+**Agentia Hello World (Greeting Agent) Project**
+**Below is a step-by-step outline for a “Hello World” project in Agentia, where you will build two agents:**
 
-#Front-End Orchestration Agent
+*Front-End Orchestration Agent*
 
 Responsible for receiving a user’s request, delegating that request to other specialized agents, and then consolidating the response back to the user.
 User Interface Layer The Front-End Agent is what the user interacts with directly (via CLI, web UI, or chatbot interface).
@@ -21,11 +21,11 @@ The Greeting Agent responds to simple greeting queries such as “Hello,” “H
 If a user message does not match a greeting intent, the agent can respond with a default message (e.g., “I only handle greetings right now.”).
 You have a choice of building these Agents for the Agentia World in CrewAI, LangGraph, Microsoft AutoGen version 0.4 and above, and AG2. You may develop anyone of these or develop multiple projects using all of these.
 
-#Testing and Validation
+**Testing and Validation**
 
 Manually send a request to the Front-End Agent endpoint
 The Front-End Agent should route this message to the Greeting Agent, get a greeting in return, and respond to the user with that greeting.
 By completing this minimal, end-to-end demonstration, you’ll gain practical insights into how multi-agent conversations work and how to structure reusable, autonomous components.
 
-#Conclusion
+**Conclusion**
 This “Hello World” project is your entry point into Agentia, demonstrating how to structure basic agent communication via natural language interfaces, orchestrate their collaboration with a front-end agent, and return a user-friendly response. By following standard industry practices (e.g., microservices, containerization, HTTP/gRPC communication, and simple NLU), you’ll build a strong foundation for more advanced multi-agent systems—where agents can become increasingly specialized, robust, and scalable.
